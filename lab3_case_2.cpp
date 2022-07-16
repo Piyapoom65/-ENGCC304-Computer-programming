@@ -2,7 +2,7 @@
 int main() {   
     int     i = 0 ;
     int     N = 7 ;
-    printf( "--| Show 'Hello World' to Screen %d line(s)\n", N );
+    printf( "--| Show 'Hello World' to Screen %d line(s)\n", N ) ;
     for( i = 0 ; i < N ; i++)
     {
         printf( "[%3d] Hello World \n", i ) ;
@@ -22,7 +22,7 @@ int main() {
 			}
 			j++ ;
         }
-        printf( "%s", "\n" );
+        printf( "%s", "\n" ) ;
         i += 1 ;
     }
     return( 0 );
