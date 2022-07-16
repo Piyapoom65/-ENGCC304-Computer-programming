@@ -1,7 +1,5 @@
 #include <stdio.h>
-int main()
-{
-    
+int main(){   
     char    ID[10] = "" ;
     int     WorkingHrs ;
     float   salary ;
