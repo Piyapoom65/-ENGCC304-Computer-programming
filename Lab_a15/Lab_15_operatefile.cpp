@@ -46,8 +46,6 @@ int takedata( worker arrset[] ) {
 }
 void showdata( worker arrin[], int countL ) {
 	float cmp_salary = -999999999 ;
-	char *pointname ;
-	char *pointjob ;
 	char Ajob[100][100] = {"Programmer", "Support", "Advisor", "Founder", "HR"} ;
 	char jobHolder[100] ;
 	for ( int i = 0 ; i < 5; i++ ){
