@@ -36,10 +36,10 @@ int takedata ( age human[] ) {
 		if (fscanf( fp, "%d\t%s\t\t%s\n", &human[ i ].number, human[ i ].name, human[ i ].date) != EOF) {
 			count++ ;
 			printf("%d\t%s\t\t%s\n", human[ i ].number, human[ i ].name, human[ i ].date) ;
-		}
+		}//end if
 		else {
 			break ;
-		}//end if	
+		}//end else	
 	}//end for
 	fclose( fp ) ;//end
 	return count ; //return number of people
@@ -70,7 +70,7 @@ void showdata ( age human[], int count) {
 		}//end for
 		holder[ 2 ] = '\0' ;
 		day = atoi( holder ) ;
-		alltoday[ i ] =  ( 2018 - year ) * 365 + ( 6 - month ) * 30 + ( 21 - day ) ;// 
+		alltoday[ i ] =  ( 2018 - year ) * 365 + ( 6 - month ) * 30 + ( 21 - day ) ;// change date to day
 		printf("%s %d Years, %d Months\n", human[ i ].name, alltoday[ i ]/ 365, ( alltoday[ i ] % 365) / 30 ) ;
 	}//end for
 	
