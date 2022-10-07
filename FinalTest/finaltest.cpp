@@ -8,7 +8,7 @@ struct ageman {
 	char date[ 100 ] ; //Birthday date
 } typedef age ; //keyword
 
-int takedata ( age [] ) ; //take data to structure and 
+int takedata ( age [] ) ; //take data to structure
 void showdata ( age [], int ) ; // show data and the oldest/youngest 
 
 int main(){
